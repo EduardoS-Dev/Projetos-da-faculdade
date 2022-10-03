@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="carrousel.css">
+
+  <title>Site utilizando Bootstrap</title>
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand" href="#">Destinos Imperdíveis</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(atual)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Desativado</a>
+          </li>
+        </ul>
+        <form class="form-inline mt-2 mt-md-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+        </form>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="first-slide"
+            src="https://blogmaladeviagem.com.br/wp-content/uploads/2020/08/Blog-Mala-de-Viagem-maldivas.jpg"
+            style="object-fit:cover ;" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption text-left">
+              <h1>Maldivas</h1>
+              <p>O paraíso de férias e destino dos sonhos para recém-casados de todo o mundo!</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="second-slide"
+            src="https://prefiroviajar.com.br/wp-content/uploads/2016/12/dubai-prefiro-viajar.jpg"
+            style="object-fit:cover ;" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1><strong>DUBAI</strong></h1>
+              <p>Comércio de luxo, construções grandiosas e a intensa atividade turística, são os pontos que fazem Dubai
+                se tornar atrativa e desejada para ser conhecida.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="third-slide" src="https://paradisoturismo.com.br/wp-content/uploads/2021/09/swiss9-1924x1283.jpg"
+            style="object-fit:cover ;" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption text-right">
+              <h1>Suiça</h1>
+              <p>Sua atmosfera romântica, uma bela arquitetura mediavel, Suiça é famosa por sua natureza - Lagos e
+                montanhas nevadas nos Alpes Suiços.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Voltar</span>
+      </a>
+      <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Avançar</span>
+      </a>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top"
+              src="https://1.bp.blogspot.com/-bAFTI-jifWA/YFyyBqHnpiI/AAAAAAAA2Kc/d7kdWlG6YwAhjwhrn3pJQ5RRTurR7plkQCLcBGAsYHQ/s2048/2.%2BHard%2BRock%2BMaldives.jpg alt="
+              Imagem de capa do card">
+            <div class="card-body">
+              <h3>Maldivas</h3>
+              <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed corrupti ut totam,
+                asperiores doloremque reiciendis necessitatibus.
+                Amet cumque et dolorem officiis qui voluptas totam, inventore, omnis eum voluptate sed. Suscipit?</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-sm">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top"
+              src="https://assets-cdn.kangaroo.com.br/images/dubai/vista-aerea-cidade-dubai-marina.jpg"
+              alt="Imagem de capa do card">
+            <div class="card-body">
+              <h3>Dubai</h3>
+              <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed corrupti ut totam,
+                asperiores doloremque reiciendis necessitatibus.
+                Amet cumque et dolorem officiis qui voluptas totam, inventore, omnis eum voluptate sed. Suscipit?</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top"
+              src="https://naminhaviagem.files.wordpress.com/2016/11/lucerne-suic3a7a.jpg?w=1568"
+              alt="Imagem de capa do card">
+            <div class="card-body">
+              <h3>Suiça</h3>
+              <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed corrupti ut totam,
+                asperiores doloremque reiciendis necessitatibus.
+                Amet cumque et dolorem officiis qui voluptas totam, inventore, omnis eum voluptate sed. Suscipit?</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <br><br>
+  <hr>
+  <footer class="text-muted">
+    <div class="container">
+      <p class="float-right">
+        <a href="#">Voltar ao topo</a>
+      </p>
+      <p>Este exemplo de álbum é &copy; Bootstrap, mas, por favor, baixe e customize por conta própria.</p>
+      <p>Novo no Bootstrap? <a href="../../">Visite a página principal</a> ou leia nosso guia <a href="../../getting-started/">getting started</a>.</p>
+    </div>
+  </footer>
+  
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
