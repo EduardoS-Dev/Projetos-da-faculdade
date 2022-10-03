@@ -1,0 +1,291 @@
+#container{
+    width: 100%;
+    height: 0 auto;
+    margin: 0 auto;
+    overflow-y: auto;
+}
+
+/* Header */
+
+#header{
+    height: 75px;
+    background-color: azure ;
+    border-bottom: 1px solid rgba(128, 128, 128,0.4);
+}
+
+.bloco1{
+    width: 50%;
+    height: 0 auto;
+}
+
+.bloco1 p { 
+    float: left;
+    padding-left: 15%;
+}
+
+.bloco1 p a{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-left: 5px solid red;
+    border-right: 5px solid red;
+    text-decoration: none;
+    color: black;
+    padding: 2px 40px 2px 40px;
+    margin: 0px 0px 0px 250px;
+}
+
+.bloco2{
+    width: 50%;
+    margin-top: 10px;
+    height: 0 auto;
+    float: right;
+}
+
+.bloco2 p{
+    float: right;
+    padding-right: 15%;
+}
+
+.bloco2 p a{
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+.bloco2 p span a{
+    border: 5px solid greenyellow;
+    border-radius: 5px;
+    background-color: greenyellow;
+    padding: 0px 15px 0px 15px;
+}
+
+/* Main */
+
+#main{
+    width: 100%;
+    height: 0 auto;
+}
+
+div.promo section figure img{
+    width: 50%;
+    height: 300px;
+    margin: 0px 20px 0px 20px;
+    float: left;
+}
+
+div.oferta{
+    width: 45%;
+    height: 300px;
+    border-left: 1px solid rgba(128, 128, 128,0.4);
+    float: right;
+}
+
+div.oferta h3{
+    font-family: Agency FB;
+    margin: 0;
+    font-size: 50px;   
+    text-align: center;
+}
+
+div.oferta .relampago{
+    color: red;
+    font-size: 25px;
+    margin: 20px ;
+    padding-left: 20px;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+    font-weight: bolder;
+    float: left;
+}
+
+div.oferta .valor{
+    margin: 40px 20px 0px 0px;
+    font-size: 30px;
+    font-weight: bold;
+    float: right;
+}
+
+.oferta .linha{
+    width: 50%;
+}
+
+div.oferta .lista li{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    padding: 40px 20px 20px 0px;
+    margin-left: 40px;
+    list-style: disc;
+    float: left;
+}
+
+div.oferta a{
+    text-decoration: none;
+    margin: 15px 0px 0px 260px;
+    padding: 5px 40px 5px 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    border: 1px solid greenyellow;
+    background-color: greenyellow;
+    color: black;
+    float: left;
+}
+
+/* Main -- Escolher opção de categoria de moto */
+div.opcao{
+    width: 100%;
+    height: 50px;
+    margin: 10px 0px 0px 0px;
+    background-color: azure;
+    border-top: 1px solid rgba(128, 128, 128,0.4);
+    border-bottom: 1px solid rgba(128, 128, 128,0.4);
+    float: left;
+}
+
+div.opcao nav li{
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0px 120px 0px 131px;
+    list-style: none;
+    float: left;
+}
+
+div.opcao li a{
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    padding: 1px 12px 1px 10px;
+    border-left: 5px solid red;
+}
+
+/* Main -- Filtro para escolher especifico*/
+
+div .filtro{
+    width: 25%;
+    border-right: 1px solid rgba(128, 128, 128,0.4);
+    border-bottom: 1px solid rgba(128, 128, 128,0.4);
+    height: 798px;
+    float: left;
+}
+
+div .filtro h3{
+    margin-top: 50px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+div .filtro h3 span{
+    color: red;
+    text-decoration: underline;
+}
+
+div .marca{
+    border-top: 1px solid rgba(128, 128, 128,0.4);
+    padding: 10px 0px 10px 0px;
+}
+
+div .marca label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+div .marca #select{
+    margin: 10px 0px 10px 30px;
+    font-size: 14px;
+    border-radius: 5px;
+    width: 93px;
+}
+
+div .marca #botom1{
+    width: 85px;
+    margin: 10px 0px 20px 30px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    float: left;
+}
+
+div .marca #botom2{
+    width: 85px;
+    margin: 10px 70px 20px 0px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    float: right;
+}
+
+div .botom3, .botom4{
+    margin: 20px 0px 0px 40px;
+}
+
+/*Manipular as imagens das motos*/
+
+#motos{
+    width: 74%;
+    height: 798px;
+    border-bottom: 1px solid rgba(128, 128, 128,0.4);
+    float: right;
+}
+
+#motos .imagem{
+    width: 350px;
+    height: 200px;
+    padding: 1px;
+    margin: 20px 100px 20px 50px;
+    border-radius: 10px;
+}
+
+/* Footer */
+
+#footer{
+    width: 100%;
+    clear: both;
+}
+
+#footer .anunciar a{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    width: 25%;
+    margin: 30px 50px 30px 100px;
+    padding: 10px 50px 10px 50px;
+    color: black;
+    border: 5px solid greenyellow;
+    background-color: greenyellow;
+    border-radius: 5px;
+    text-decoration: none;
+    float: left;
+}
+
+#footer .receber h4{
+    float: left;
+    padding: 50px 10px 0px 15%;
+    margin: 0;
+    font-size: 20px;
+}
+
+#footer .receber input{
+    margin-top: 50px;
+    float: left;
+}
+
+#footer #email{
+    width: 300px;
+}
+
+#footer div.acessar{
+    margin: 0% 25% 0% 25%;
+    text-align: center;
+    clear: both;
+}
+
+#footer div.acessar img{
+    width: 30px;
+    height: 30px;
+}

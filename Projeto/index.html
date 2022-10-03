@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O projeto</title>
+    <link rel="stylesheet" href="./css/estilo.css">
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <div id="header">
+                <div class="bloco1">
+                    <p><a href="#">Comprar</a></p>
+                </div>
+                <div class="bloco2">
+                    <p><span><a href="#">Anunciar</a></span></p>
+                    <p><a href="#">Entrar</a> ou <a href="#">Cadastrar-se</a></p>
+                </div>
+            </div>
+        </header>
+
+        <main id="main">
+            <div class="promo">
+                <section>
+                    <figure>
+                        <img src="./img/Hornet1.jpg" alt="moto-hornet">
+                    </figure>
+                </section>
+            </div>
+            <div class="oferta">
+                <article>
+                    <h3>HORNET 2013</h3>
+                    <p class="relampago">PROMOÇÃO RELÂMPAGO</p>
+                    <p class="valor">R$40.900,00</p>
+                    <ul class="lista">
+                        <div class="linha">
+                            ______________________________________________________________________________
+                        </div>
+                        <li>FINANCIMENTO</li>
+                        <li>PARCELAMENTO ATÉ 12x</li>
+                        <li>PIX</li>
+                    </ul>
+                    <a href="#">Comprar Agora</a>
+                </article>
+            </div>
+
+            <div class="opcao">
+                <nav>
+                    <ul>
+                        <li><a href="#"> Carenada</a></li>
+                        <li><a href="#"> Naked</a></li>
+                        <li><a href="#"> Off-Road</a></li>
+                        <li><a href="#"> Custom</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="filtro">
+                <aside>
+                    <h3>Encontre sua <span>MOTO</span></h3>
+                    <form action="#">
+                        <div class="marca">
+                            <label for="#">Marca</label><br>
+                            <select name="selecao" id="select">
+                                <option value="bmw">BMW</option>
+                                <option value="honda">Honda</option>
+                                <option value="suzuki">Suzuki</option>
+                                <option value="Kawa">Kawasaki</option>
+                            </select>
+                        </div>
+                        <div class="marca">
+                            <label for="#">Valor</label><br>
+                            <input type="text" name="#" id="botom1" placeholder="de R$" pattern="([0-9])+,([0-9]{2})"
+                                title="Ex:20000,00">
+                            <input type="text" name="#" id="botom2" placeholder="até R$" pattern="([0-9])+,([0-9]{2})"
+                                title="Ex:20000,00">
+                        </div>
+                        <div>
+                            <input class="botom3" type="reset" value="Limpar Filtro">
+                            <input class="botom4" type="submit" value="Buscar">
+                        </div>
+                    </form>
+                </aside>
+            </div>
+            <div id="motos">
+                <article>
+                    <figure>
+                        <img class="imagem" src="./img/S1000RR-PRETA.jpg" alt="S1000rr">
+                        <img class="imagem" src="./img/CBR1000RR-R.jpeg" alt="CB1000RR-R">
+                        <img class="imagem" src="./img/Naked Suzuki s1000.jpg" alt="GSX S1000R">
+                        <img class="imagem" src="./img/Cb1000r.png" alt="CB1000R">
+                        <img class="imagem" src="./img/GSR1200.jpg" alt="GSR1200">
+                        <img class="imagem" src="./img/Harley.jpeg" alt="harley">
+                    </figure>
+                </article>
+            </div>
+        </main>
+        <footer id="footer">
+            <div class="anunciar">
+                <a href="#">ANUNCIAR</a>
+            </div>
+            <div class="receber">
+                <h4>Receber noticias e ofertas</h4>
+                <form action="">
+                    <input type="email" name="E-mail" id="email" value="" placeholder="Digite seu e-mail"
+                        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+                    <input type="submit" value="Enviar" id="enviar">
+                </form>
+            </div>
+            <div class="acessar">
+                <a href="#"><img src="./img/icone-face.jpg" alt="facebook"></a>
+                <a href="#"><img src="./img/icone-insta.png" alt="Instagram"></a>
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>
